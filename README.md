@@ -229,5 +229,32 @@ For **market risk** roles:
 
 ---
 
+## Dashboard Preview
+
+The Streamlit dashboard provides interactive exploration across five key analytical views:
+
+### 1. Price History
+[![Price History Tab](assets/images/price_history.png)](assets/images/price_history.png)
+*Brent and WTI daily prices with volatility overlay, date-range filterable.*
+
+### 2. Curve & Spreads
+[![Curve and Spreads Tab](assets/images/curve_spreads.png)](assets/images/curve_spreads.png)
+*Forward curve snapshots, calendar spreads evolution, and backwardation/contango structure by year.*
+
+### 3. Regime Detection
+[![Regime Tab](assets/images/regime.png)](assets/images/regime.png)
+*Hidden Markov Model classification (calm/controlled tension/escalation) overlaid on price with regime feature statistics.*
+
+### 4. Scenarios
+[![Scenarios Tab](assets/images/scenarios.png)](assets/images/scenarios.png)
+*Scenario summary table, probabilistic fan chart, and scenario-conditional Brent endpoint distributions.*
+
+**To launch the dashboard:**
+```bash
+streamlit run app/streamlit_app.py
+```
+
+---
+
 *Data source: LSEG Workspace (lseg-data 2.1.1). Instruments confirmed accessible 2026-04-21.*
 *This project is for analytical and portfolio purposes. Not investment advice.*
