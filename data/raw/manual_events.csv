@@ -1,0 +1,43 @@
+date,label,category,description,direction
+2020-01-03,Soleimani assassination,Iran,US drone strike kills IRGC Quds Force commander Qasem Soleimani at Baghdad airport. Immediate escalation of US-Iran tensions.,escalation
+2020-01-08,Iran missile strikes Iraq,Iran,Iran launches ballistic missiles at two US military bases in Iraq in retaliation for Soleimani killing.,escalation
+2020-01-11,Iran tensions ease,Iran,US and Iran step back from direct conflict; markets partially unwind Soleimani risk premium.,de-escalation
+2021-04-06,Vienna nuclear talks resume,Nuclear,Iran and world powers resume JCPOA negotiations in Vienna after US 2018 withdrawal.,de-escalation
+2021-06-18,Raisi elected Iran president,Iran,Hardliner Ebrahim Raisi wins Iranian presidential election; market concern over nuclear deal prospects.,escalation
+2021-11-29,Vienna talks stall,Nuclear,JCPOA revival talks stall as Iran presents maximalist demands; US threatens new sanctions.,escalation
+2022-02-24,Russia invades Ukraine,Regional,Russia launches full-scale invasion of Ukraine; global energy supply shock; Brent spikes toward $130.,escalation
+2022-03-11,JCPOA talks collapse,Nuclear,Iran nuclear deal negotiations in Vienna break down. Deal revival set back indefinitely.,escalation
+2022-09-22,Iran protests begin,Iran,Mass protests erupt in Iran following death of Mahsa Amini; political uncertainty and regime crackdown.,escalation
+2022-10-05,OPEC+ cuts output 2mbpd,OPEC+,OPEC+ announces 2 million bpd production cut from November 2022 despite US pressure.,escalation
+2023-03-10,Iran-Saudi normalisation,Iran,China brokers Iran-Saudi Arabia diplomatic deal to restore relations after 7-year break.,de-escalation
+2023-04-05,OPEC+ surprise cut,OPEC+,Saudi Arabia and OPEC+ announce surprise voluntary production cut of ~1.6 mbpd; Brent jumps $5/bbl.,escalation
+2023-06-04,OPEC+ extends cuts,OPEC+,Saudi Arabia announces extra 1 mbpd voluntary cut from July 2023; OPEC+ extends broader cuts into 2024.,escalation
+2023-10-07,Hamas attacks Israel,Regional,Hamas launches large-scale attack on southern Israel from Gaza. Regional escalation risk spikes.,escalation
+2023-10-18,Iran warns on Hormuz,Hormuz,Iranian officials warn of potential Strait of Hormuz action if conflict spreads. Shipping risk rises.,escalation
+2023-10-28,Israel ground operation begins,Regional,Israel launches ground operation into Gaza. Iran/Hezbollah escalation concerns lift crude risk premium.,escalation
+2023-11-22,Gaza temporary ceasefire,Regional,Temporary ceasefire agreed between Israel and Hamas. Partial unwinding of conflict risk premium.,de-escalation
+2024-01-11,US UK strikes on Houthis,Hormuz,US and UK launch airstrikes on Houthi targets in Yemen following Red Sea shipping attacks.,escalation
+2024-01-26,US strikes Iran proxies,Iran,US strikes 85 targets across Iraq and Syria operated by Iran-backed militias.,escalation
+2024-03-12,Houthi attacks persist,Hormuz,Houthis continue attacks on Red Sea shipping; tanker rerouting via Cape of Good Hope continues.,escalation
+2024-04-01,Israel strikes Damascus,Regional,Israel strikes Iranian consulate building in Damascus; kills senior IRGC commanders.,escalation
+2024-04-13,Iran attacks Israel direct,Iran,Iran launches direct attack on Israel: ~300 drones and ballistic missiles. First direct Iran-Israel military exchange.,escalation
+2024-04-19,Israel strikes Iran,Iran,Israel carries out retaliatory strike on Iranian territory. Measured response; limited scale relief.,escalation
+2024-04-25,Iran-Israel tensions ease,Iran,Both Iran and Israel signal no desire for further direct escalation. Risk premium partially unwinds.,de-escalation
+2024-05-19,Raisi dies helicopter crash,Iran,Iranian President Raisi and Foreign Minister Amir-Abdollahian killed in helicopter crash in northwestern Iran.,neutral
+2024-07-31,Haniyeh killed in Tehran,Iran,Hamas political leader Ismail Haniyeh killed in explosion in Tehran. Iran vows retaliation.,escalation
+2024-08-04,Hezbollah attacks Israel,Regional,Hezbollah launches largest attack on northern Israel since 2006 war. Iran escalation risk re-prices.,escalation
+2024-09-17,OPEC+ delays production hike,OPEC+,OPEC+ delays planned October output increase by two months due to weak demand.,neutral
+2024-10-01,Iran ballistic missiles at Israel,Iran,Iran launches ~180 ballistic missiles at Israel — largest direct attack to date. Brent spikes.,escalation
+2024-10-26,Israel strikes Iran,Iran,Israel launches retaliatory airstrikes on Iranian air defense and missile production sites.,escalation
+2024-11-27,Israel-Hezbollah ceasefire,Regional,US-brokered Israel-Hezbollah ceasefire takes effect. Cross-border hostilities pause.,de-escalation
+2025-01-19,Gaza ceasefire begins,Regional,Gaza ceasefire enters into force. Phase 1 hostage releases begin. Regional conflict risk reduces.,de-escalation
+2025-01-20,Trump maximum pressure Iran,Iran,Trump administration announces reinstatement of maximum pressure campaign; new Iran sanctions threatened.,escalation
+2025-02-04,New Iran sanctions announced,Iran,US announces new sanctions targeting buyers of Iranian crude oil under maximum pressure policy.,escalation
+2025-03-04,US-Iran indirect talks,Nuclear,Reports of indirect US-Iran nuclear contacts via Oman channel.,de-escalation
+2025-03-15,US resumes Houthi strikes,Hormuz,US military launches new round of airstrikes on Houthi infrastructure in Yemen.,escalation
+2025-04-12,Iran-US nuclear talks Oman,Nuclear,Iran and US hold direct nuclear talks in Oman — first direct dialogue since 2018. Positive initial signals.,de-escalation
+2026-04-05,OPEC+ production adjustment,OPEC+,OPEC+ confirms a 206 kb/d production adjustment for May 2026.,neutral
+2026-04-17,Hormuz declared open,Hormuz,Markets react to headlines that the Strait of Hormuz is declared open.,de-escalation
+2026-04-19,Ceasefire collapse fears,Iran,Oil rebounds sharply as fears grow that the US-Iran ceasefire may collapse.,escalation
+2026-04-20,Hormuz traffic near standstill,Hormuz,Shipping traffic remains near a virtual standstill through Hormuz.,escalation
+2026-04-21,US-Iran talks optimism,Nuclear,Renewed optimism around possible US-Iran talks ahead of truce deadline.,de-escalation

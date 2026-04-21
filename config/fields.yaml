@@ -1,0 +1,34 @@
+# LSEG fields configuration
+#
+# price_field_priority: ordered list — first field that returns data is used.
+# TRDPRC_1 is confirmed working for Brent and WTI futures (smoke test 2026-04-21).
+
+price_field_priority:
+  - TRDPRC_1
+  - CLOSE
+  - OPEN
+
+price_fields_extended:
+  - TRDPRC_1
+  - CLOSE
+  - HIGH
+  - LOW
+  - OPEN
+  - ACVOL_1
+
+# News search parameters
+news:
+  geopolitical_topics:
+    - Iran
+    - "Strait of Hormuz"
+    - Hormuz
+    - sanctions
+    - "oil tanker"
+    - OPEC
+    - "military strike"
+    - escalation
+    - ceasefire
+    - "de-escalation"
+    - "supply disruption"
+  max_headlines_per_query: 200
+  language: en

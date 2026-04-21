@@ -1,0 +1,78 @@
+# Candidate instruments for this project.
+#
+# VALIDATION STATUS (as of smoke test 2026-04-21):
+#   CONFIRMED accessible via TRDPRC_1:
+#     LCOc1, LCOc2, LCOc3, CLc1
+#   NOT YET TESTED:
+#     LCOc6, LCOc12, macro proxies
+#
+# Run src/discovery.py to update this status for your environment.
+# Never assume untested instruments are accessible.
+
+brent_futures:
+  - ric: "LCOc1"
+    label: "Brent M1 (front-month)"
+    role: primary
+    validated: true
+    working_field: "TRDPRC_1"
+  - ric: "LCOc2"
+    label: "Brent M2"
+    role: curve
+    validated: true
+    working_field: "TRDPRC_1"
+  - ric: "LCOc3"
+    label: "Brent M3"
+    role: curve
+    validated: true
+    working_field: "TRDPRC_1"
+  - ric: "LCOc6"
+    label: "Brent M6"
+    role: curve
+    validated: true
+    working_field: "TRDPRC_1"
+  - ric: "LCOc12"
+    label: "Brent M12"
+    role: curve
+    validated: true
+    working_field: "TRDPRC_1"
+
+wti_futures:
+  - ric: "CLc1"
+    label: "WTI M1 (front-month)"
+    role: primary
+    validated: true
+    working_field: "TRDPRC_1"
+
+macro_proxies:
+  # UNCERTAIN — access depends on LSEG entitlement tier.
+  # All set validated: false until confirmed in your environment.
+  - ric: "DXY"
+    label: "US Dollar Index"
+    role: macro
+    validated: false
+    working_field: null
+    fallback_note: "May require specific data entitlement"
+  - ric: "US10YT=RR"
+    label: "US 10Y Treasury Yield"
+    role: macro
+    validated: false
+    working_field: null
+    fallback_note: "RIC format may differ by entitlement"
+  - ric: ".SPX"
+    label: "S&P 500 Index"
+    role: risk_proxy
+    validated: true
+    working_field: "TRDPRC_1"
+    fallback_note: "Equity index access depends on entitlement"
+
+# Discovery probe parameters
+discovery:
+  probe_days_back_start: 30
+  probe_days_back_end: 1
+  min_non_null_rows: 3
+  candidate_fields:
+    - TRDPRC_1
+    - CLOSE
+    - OPEN
+    - HIGH
+    - LOW

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Local generated data
+data/processed/*.parquet
+data/processed/*.csv
+data/outputs/*.csv
+data/outputs/*.parquet
+
+# Keep placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/outputs/.gitkeep

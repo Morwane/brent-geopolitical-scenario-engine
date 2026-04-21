@@ -1,0 +1,33 @@
+# Core data and numerics
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+pyarrow>=12.0.0
+
+# LSEG data library
+lseg-data>=2.1.0
+
+# Environment and config
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
+# Machine learning (supporting role: regime detection, news scoring, scenario probs)
+scikit-learn>=1.3.0
+hmmlearn>=0.3.0
+statsmodels>=0.14.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Dashboard
+streamlit>=1.28.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+nbformat>=5.9.0
