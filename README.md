@@ -241,18 +241,21 @@ The Streamlit dashboard provides interactive exploration across five key analyti
 [![Curve and Spreads Tab](assets/images/curve_spreads.png)](assets/images/curve_spreads.png)
 *Forward curve snapshots, calendar spreads evolution, and backwardation/contango structure by year.*
 
-### 3. Regime Detection
+### 3. Event Study
+[![Event Study Tab](assets/images/event-study.png)](assets/images/event-study.png)
+*Event windows and cumulative abnormal returns around geopolitical escalation and de-escalation episodes.*
+
+### 4. Regime Detection
 [![Regime Tab](assets/images/regime.png)](assets/images/regime.png)
 *Hidden Markov Model classification (calm/controlled tension/escalation) overlaid on price with regime feature statistics.*
 
-### 4. Scenarios
+### 5. Scenarios
 [![Scenarios Tab](assets/images/scenarios.png)](assets/images/scenarios.png)
 *Scenario summary table, probabilistic fan chart, and scenario-conditional Brent endpoint distributions.*
 
 **To launch the dashboard:**
 ```bash
 streamlit run app/streamlit_app.py
-```
 
 ---
 
